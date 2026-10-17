@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .custom-radio {
+    @apply appearance-none w-5 h-5 border-2 rounded-full cursor-pointer transition-all duration-200;
+  }
+  
+  .custom-radio:checked {
+    @apply border-4;
+  }
+  
+  .custom-radio.bad {
+    @apply border-rating-bad;
+  }
+  
+  .custom-radio.bad:checked {
+    @apply bg-rating-bad border-rating-bad;
+  }
+  
+  .custom-radio.medium {
+    @apply border-rating-medium;
+  }
+  
+  .custom-radio.medium:checked {
+    @apply bg-rating-medium border-rating-medium;
+  }
+  
+  .custom-radio.good {
+    @apply border-rating-good;
+  }
+  
+  .custom-radio.good:checked {
+    @apply bg-rating-good border-rating-good;
+  }
+  
+  .custom-radio.excellent {
+    @apply border-rating-excellent;
+  }
+  
+  .custom-radio.excellent:checked {
+    @apply bg-rating-excellent border-rating-excellent;
+  }
+}
