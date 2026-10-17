@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gelisim/static/css/main.101555d4.css",
+    "main.js": "/gelisim/static/js/main.8cb6cb52.js",
+    "index.html": "/gelisim/index.html",
+    "main.101555d4.css.map": "/gelisim/static/css/main.101555d4.css.map",
+    "main.8cb6cb52.js.map": "/gelisim/static/js/main.8cb6cb52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.101555d4.css",
+    "static/js/main.8cb6cb52.js"
+  ]
+}
